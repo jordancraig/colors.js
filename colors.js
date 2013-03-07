@@ -7,7 +7,7 @@
         }
         var opts = $.extend({},settings,options);
         var color_index = 1;
-        var bgImg = 'https://github.com/JieeHD/colors.js/blob/gh-pages/blurrrrr.png';
+        var bgImg = window.location.hostname + 'blurrrrr.png';
         $("#test").css('background-image', 'url('+bgImg+')');
 
     $.fn.recurseAnim = function(){
