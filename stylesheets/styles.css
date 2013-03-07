@@ -37,6 +37,15 @@ body {
 
 }
 
+body#home {
+	background: url("images/blurrrrr.png"); 
+	no-repeat top center;-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;-o-background-size: 100% 100%;
+	-ms-background-size: 100% 100%;
+	background-size: 100% 100%;
+	overflow: hidden;
+}
+
 h1, h2, h3, h4, h5, h6 {
   color:#232323;
   margin:36px 0 10px;
