@@ -7,8 +7,6 @@
         }
         var opts = $.extend({},settings,options);
         var color_index = 1;
-        var bgImg = window.location.hostname + '/blurrrrr.png';
-        $("#test").css('background-image', 'url('+bgImg+')');
 
     $.fn.recurseAnim = function(){
         $(self).animate({ backgroundColor: opts.colors[color_index] }, opts.duration,
